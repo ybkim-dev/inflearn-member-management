@@ -2,10 +2,12 @@ package com.exercise.inflearnmembermanagement.service;
 
 import com.exercise.inflearnmembermanagement.domain.Member;
 import com.exercise.inflearnmembermanagement.repository.MemberRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
