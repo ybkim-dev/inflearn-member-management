@@ -1,5 +1,6 @@
 package com.exercise.inflearnmembermanagement;
 
+import com.exercise.inflearnmembermanagement.aop.TimeTraceAop;
 import com.exercise.inflearnmembermanagement.repository.*;
 import com.exercise.inflearnmembermanagement.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
